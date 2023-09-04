@@ -1,0 +1,1 @@
+/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.AOT.osx-x64.Cross.iossimulator-x64/7.0.9/Sdk/../tools/mono-aot-cross

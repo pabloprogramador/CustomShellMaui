@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_MainLinkWith Include="/usr/local/share/dotnet/packs/Microsoft.iOS.Runtime.iossimulator-x64/16.4.7089/runtimes/iossimulator-x64/native/Microsoft.iOS.registrar.a" />
+  </ItemGroup>
+</Project>

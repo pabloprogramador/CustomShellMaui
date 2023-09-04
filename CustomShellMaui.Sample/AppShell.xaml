@@ -4,12 +4,23 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:CustomShellMaui.Sample"
+    xmlns:pages="clr-namespace:CustomShellMaui.Sample.Pages"
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+
+     <ShellContent
+        Title="New 1"
+        ContentTemplate="{DataTemplate pages:New1}"
+        Route="New1" />
+
+     <ShellContent
+        Title="New 2"
+        ContentTemplate="{DataTemplate pages:New2}"
+        Route="New2" />
 
 </Shell>
 

@@ -32,6 +32,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = CustomShellMaui.Sample.Mai
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
+[/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/Pages/New1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CustomShellMaui.Sample.Pages.New1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/New1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/New1.xaml
+
+[/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/Pages/New2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CustomShellMaui.Sample.Pages.New2.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages/New2.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages/New2.xaml
+
 [/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CustomShellMaui.Sample.Resources.Styles.Colors.xaml
