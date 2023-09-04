@@ -26,6 +26,8 @@
 	  <None Remove="Platforms\MacCatalyst\" />
 	  <None Remove="Platforms\Windows\" />
 	  <None Remove="Platforms\Tizen\" />
+	  <None Remove="Enum\" />
+	  <None Remove="Models\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Platforms\Android\" />
@@ -33,5 +35,7 @@
 	  <Folder Include="Platforms\MacCatalyst\" />
 	  <Folder Include="Platforms\Windows\" />
 	  <Folder Include="Platforms\Tizen\" />
+	  <Folder Include="Enum\" />
+	  <Folder Include="Models\" />
 	</ItemGroup>
 </Project>

@@ -61,4 +61,7 @@
 	<ItemGroup>
 	  <Folder Include="Pages\" />
 	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\CustomShellMaui\CustomShellMaui.csproj" />
+	</ItemGroup>
 </Project>

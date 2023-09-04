@@ -1924,6 +1924,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        }
       }
     },
     "net7.0-android33.0/android-arm": {
@@ -3848,6 +3858,16 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
         }
       }
     },
@@ -5774,6 +5794,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        }
       }
     },
     "net7.0-android33.0/android-x64": {
@@ -7698,6 +7728,16 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
         }
       }
     },
@@ -9624,6 +9664,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        }
       }
     },
     "net7.0-android33.0/iossimulator-x64": {
@@ -11548,6 +11598,16 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
         }
       }
     },
@@ -13474,6 +13534,16 @@
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        }
       }
     },
     "net7.0-ios16.1": {
@@ -13657,6 +13727,16 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
         }
       }
     },
@@ -13842,6 +13922,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/android-arm64": {
@@ -14025,6 +14115,16 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
         }
       }
     },
@@ -14210,6 +14310,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/android-x86": {
@@ -14393,6 +14503,16 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
         }
       }
     },
@@ -14578,6 +14698,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        }
       }
     },
     "net7.0-ios16.1/maccatalyst-x64": {
@@ -14761,6 +14891,16 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
         }
       }
     },
@@ -14946,6 +15086,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-arm": {
@@ -15129,6 +15279,16 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
         }
       }
     },
@@ -15314,6 +15474,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/android-x64": {
@@ -15497,6 +15667,16 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
         }
       }
     },
@@ -15682,6 +15862,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/iossimulator-x64": {
@@ -15866,6 +16056,16 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        }
       }
     },
     "net7.0-maccatalyst16.1/maccatalyst-x64": {
@@ -16049,6 +16249,16 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "CustomShellMaui/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CustomShellMaui.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomShellMaui.dll": {}
         }
       }
     }
@@ -18405,10 +18615,16 @@
         "xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
+    },
+    "CustomShellMaui/1.0.0": {
+      "type": "project",
+      "path": "../CustomShellMaui/CustomShellMaui.csproj",
+      "msbuildProject": "../CustomShellMaui/CustomShellMaui.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
+      "CustomShellMaui >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -18428,6 +18644,7 @@
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
     "net7.0-ios16.1": [
+      "CustomShellMaui >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -18436,6 +18653,7 @@
       "Microsoft.Maui.Graphics >= 7.0.92"
     ],
     "net7.0-maccatalyst16.1": [
+      "CustomShellMaui >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -18473,15 +18691,27 @@
       "frameworks": {
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/dev/Projects/CustomShellMaui/CustomShellMaui/CustomShellMaui.csproj": {
+              "projectPath": "/Users/dev/Projects/CustomShellMaui/CustomShellMaui/CustomShellMaui.csproj"
+            }
+          }
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/dev/Projects/CustomShellMaui/CustomShellMaui/CustomShellMaui.csproj": {
+              "projectPath": "/Users/dev/Projects/CustomShellMaui/CustomShellMaui/CustomShellMaui.csproj"
+            }
+          }
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/dev/Projects/CustomShellMaui/CustomShellMaui/CustomShellMaui.csproj": {
+              "projectPath": "/Users/dev/Projects/CustomShellMaui/CustomShellMaui/CustomShellMaui.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

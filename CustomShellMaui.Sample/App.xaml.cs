@@ -6,7 +6,9 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new AppShell();
+		var shell = new AppShell();
+		
+		MainPage = shell;
 	}
 }
 
