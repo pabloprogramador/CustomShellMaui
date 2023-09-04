@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomShellMaui", "CustomShellMaui\CustomShellMaui.csproj", "{9C2C0AB7-3A40-41F6-9ED1-2B74DB8A4E31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomShellMaui.Sample", "CustomShellMaui.Sample\CustomShellMaui.Sample.csproj", "{13BDF95C-B99F-4CD9-819C-50DB658EA57B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C2C0AB7-3A40-41F6-9ED1-2B74DB8A4E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2C0AB7-3A40-41F6-9ED1-2B74DB8A4E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2C0AB7-3A40-41F6-9ED1-2B74DB8A4E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2C0AB7-3A40-41F6-9ED1-2B74DB8A4E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13BDF95C-B99F-4CD9-819C-50DB658EA57B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BDF95C-B99F-4CD9-819C-50DB658EA57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BDF95C-B99F-4CD9-819C-50DB658EA57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BDF95C-B99F-4CD9-819C-50DB658EA57B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38B68195-8297-49F7-96D5-94976AA4AB63}
+	EndGlobalSection
+EndGlobal

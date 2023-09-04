@@ -1,0 +1,5 @@
+﻿<Properties StartupConfiguration="{9C2C0AB7-3A40-41F6-9ED1-2B74DB8A4E31}|Default">
+  <MonoDevelop.Ide.ItemProperties.CustomShellMaui PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CustomShellMaui.Sample FirstBuild="True" />
+</Properties>
