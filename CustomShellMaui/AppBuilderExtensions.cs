@@ -10,7 +10,7 @@ public static class AppBuilderExtensions
 #if ANDROID
              handlers.AddHandler<Shell, Platforms.Android.CustomShellRenderer>();
 #elif IOS
-             //handlers.AddHandler<Shell, Plugins.CNPM.Platforms.iOS.CustomShellRenderer>();
+             handlers.AddHandler<Shell, Platforms.iOS.CustomShellRenderer>();
 #endif
         });
         return builder;

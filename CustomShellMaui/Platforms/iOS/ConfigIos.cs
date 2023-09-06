@@ -3,7 +3,7 @@ using CustomShellMaui.Enum;
 
 namespace CustomShellMaui.Platforms.iOS
 {
-	public class Config
+	public class ConfigIos
 	{
         public double OpacityStart { get; set; } = 1;
         public double OpacityEnd { get; set; } = 1;

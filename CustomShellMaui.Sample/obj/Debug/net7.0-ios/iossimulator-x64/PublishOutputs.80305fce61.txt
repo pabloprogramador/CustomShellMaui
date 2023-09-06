@@ -9,6 +9,7 @@
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/Microsoft.Extensions.Options.dll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/Microsoft.Extensions.Primitives.dll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/Microsoft.Maui.Graphics.dll
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/CustomShellMaui.dll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/CustomShellMaui.Sample.dll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/Microsoft.CSharp.dll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/Microsoft.VisualBasic.Core.dll
@@ -185,6 +186,7 @@
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/Microsoft.Maui.Controls.dll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/Microsoft.Maui.Essentials.dll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/CustomShellMaui.Sample.pdb
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/CustomShellMaui.pdb
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/libSystem.IO.Compression.Native.dylib
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/libSystem.Native.dylib
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/publish/../CustomShellMaui.Sample.app/libSystem.Net.Security.Native.dylib

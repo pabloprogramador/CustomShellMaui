@@ -10,32 +10,32 @@
             VerticalOptions="Center">
 
             <Button
-                Text="Open Current Config"
-                Clicked="OnCurrentRoot"
+                Text="Open"
+                Clicked="OnCurrentRoot" BackgroundColor="Purple" 
                 HorizontalOptions="Center" />
 
             <Button
-                Text="Open Custom Config"
+                Text="Open Custom" BackgroundColor="Purple"
                 Clicked="OnCustomRoot"
                 HorizontalOptions="Center" />
 
             <Button
-                Text="Open Root Fade"
+                Text="Open Fade" BackgroundColor="Purple"
                 Clicked="OnFadeRoot"
                 HorizontalOptions="Center" />
 
             <Button
-                Text="Open Push and Pop Left/Right"
+                Text="Push and Pop Left/Right"
                 Clicked="OnPushLeftRight"
                 HorizontalOptions="Center" />
 
             <Button
-                Text="Open Push and Pop Top/Bottom"
+                Text="Push and Pop Top/Bottom"
                 Clicked="OnTopBottom"
                 HorizontalOptions="Center" />
 
             <Button
-                Text="Open Push and Pop  Scale"
+                Text="Push and Pop  Scale"
                 Clicked="OnScale"
                 HorizontalOptions="Center" />
 

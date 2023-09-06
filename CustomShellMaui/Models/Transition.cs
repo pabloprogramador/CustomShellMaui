@@ -15,8 +15,8 @@ namespace CustomShellMaui.Models
         public int NextPageAndroid { get; set; }
 
 #elif IOS
-        public CustomShellMaui.Platforms.iOS.Config CurrentPageIos { get; set; }
-        public CustomShellMaui.Platforms.iOS.Config NextPageIos { get; set; }
+        public CustomShellMaui.Platforms.iOS.ConfigIos CurrentPageIos { get; set; }
+        public CustomShellMaui.Platforms.iOS.ConfigIos NextPageIos { get; set; }
 #endif
     }
 }
