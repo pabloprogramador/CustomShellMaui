@@ -7,11 +7,6 @@ public partial class New1 : ContentPage
 		InitializeComponent();
 	}
 
-    private void OnGoRootMain(object s, EventArgs e)
-    {
-        Shell.Current.GoToAsync("//" + nameof(MainPage));
-    }
-
     private void OnPop(object s, EventArgs e)
     {
         Shell.Current.Navigation.PopAsync();

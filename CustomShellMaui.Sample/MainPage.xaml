@@ -9,28 +9,21 @@
             Padding="30,0"
             VerticalOptions="Center">
 
-           
-
             <Button
-                Text="Open Root New 1"
-                Clicked="OnGoRootNew1"
+                Text="Open Current Config"
+                Clicked="OnCurrentRoot"
                 HorizontalOptions="Center" />
 
             <Button
-                Text="Open Push New 1"
-                Clicked="OnGoNew1"
-                HorizontalOptions="Center" />
-            <Frame HeightRequest="2" HasShadow="False" BorderColor="Transparent"/>
-
-                      <Button
-                Text="Open Root New 2"
-                Clicked="OnGoRootNew2"
+                Text="Open Root Fade"
+                Clicked="OnFadeRoot"
                 HorizontalOptions="Center" />
 
             <Button
-                Text="Open Push New 2"
-                Clicked="OnGoNew2"
+                Text="Open Push Left/Right"
+                Clicked="OnPushLeftRight"
                 HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 

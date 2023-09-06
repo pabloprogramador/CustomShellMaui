@@ -5,10 +5,10 @@
              Title="New2" BackgroundColor="BlueViolet">
  <VerticalStackLayout Padding="30" Spacing="20">
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="OPEN IN ROOT"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Button Text="Open Root Main" Clicked="OnGoRootMain" />
-        <Button Text="Pop" Clicked="OnPop" />
+        
     </VerticalStackLayout>
 </ContentPage>

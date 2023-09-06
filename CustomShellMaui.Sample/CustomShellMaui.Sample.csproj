@@ -57,11 +57,19 @@
 
 	<ItemGroup>
 	  <None Remove="Pages\" />
+	  <None Remove="Platforms\Android\Resources\anim\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Pages\" />
+	  <Folder Include="Platforms\Android\Resources\anim\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\CustomShellMaui\CustomShellMaui.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <AndroidResource Update="Platforms\Android\Resources\anim\custom_in.xml">
+	    <SubType></SubType>
+	    <Generator></Generator>
+	  </AndroidResource>
 	</ItemGroup>
 </Project>

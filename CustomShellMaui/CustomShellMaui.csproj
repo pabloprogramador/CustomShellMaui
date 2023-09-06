@@ -28,6 +28,21 @@
 	  <None Remove="Platforms\Tizen\" />
 	  <None Remove="Enum\" />
 	  <None Remove="Models\" />
+	  <None Remove="Platforms\Android\Resources\" />
+	  <None Remove="Platforms\Android\Resources\anim\" />
+	  <None Remove="Platforms\Android\Resources\anim\scale_out.xml" />
+	  <None Remove="Platforms\Android\Resources\anim\scale_in.xml" />
+	  <None Remove="Platforms\Android\Resources\anim\none.xml" />
+	  <None Remove="Platforms\Android\Resources\anim\fade_out.xml" />
+	  <None Remove="Platforms\Android\Resources\anim\fade_in.xml" />
+	  <None Remove="Platforms\Android\Resources\anim\exit_top.xml" />
+	  <None Remove="Platforms\Android\Resources\anim\exit_right.xml" />
+	  <None Remove="Platforms\Android\Resources\anim\exit_left.xml" />
+	  <None Remove="Platforms\Android\Resources\anim\exit_bottom.xml" />
+	  <None Remove="Platforms\Android\Resources\anim\enter_top.xml" />
+	  <None Remove="Platforms\Android\Resources\anim\enter_right.xml" />
+	  <None Remove="Platforms\Android\Resources\anim\enter_left.xml" />
+	  <None Remove="Platforms\Android\Resources\anim\enter_bottom.xml" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Platforms\Android\" />
@@ -37,5 +52,22 @@
 	  <Folder Include="Platforms\Tizen\" />
 	  <Folder Include="Enum\" />
 	  <Folder Include="Models\" />
+	  <Folder Include="Platforms\Android\Resources\" />
+	  <Folder Include="Platforms\Android\Resources\anim\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <AndroidResource Include="Platforms\Android\Resources\anim\scale_out.xml" />
+	  <AndroidResource Include="Platforms\Android\Resources\anim\scale_in.xml" />
+	  <AndroidResource Include="Platforms\Android\Resources\anim\none.xml" />
+	  <AndroidResource Include="Platforms\Android\Resources\anim\fade_out.xml" />
+	  <AndroidResource Include="Platforms\Android\Resources\anim\fade_in.xml" />
+	  <AndroidResource Include="Platforms\Android\Resources\anim\exit_top.xml" />
+	  <AndroidResource Include="Platforms\Android\Resources\anim\exit_right.xml" />
+	  <AndroidResource Include="Platforms\Android\Resources\anim\exit_left.xml" />
+	  <AndroidResource Include="Platforms\Android\Resources\anim\exit_bottom.xml" />
+	  <AndroidResource Include="Platforms\Android\Resources\anim\enter_top.xml" />
+	  <AndroidResource Include="Platforms\Android\Resources\anim\enter_right.xml" />
+	  <AndroidResource Include="Platforms\Android\Resources\anim\enter_left.xml" />
+	  <AndroidResource Include="Platforms\Android\Resources\anim\enter_bottom.xml" />
 	</ItemGroup>
 </Project>

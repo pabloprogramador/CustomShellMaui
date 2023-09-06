@@ -3,6 +3,7 @@ namespace CustomShellMaui.Enum
 {
 	public enum TransitionType
 	{
-		None, Fade
+		None, FadeIn, FadeOut, ScaleIn, ScaleOut, LeftIn, LeftOut, RightIn, RightOut,
+		TopIn, TopOut, BottomIn, BottomOut
 	}
 }

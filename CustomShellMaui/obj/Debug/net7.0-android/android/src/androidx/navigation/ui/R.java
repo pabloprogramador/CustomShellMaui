@@ -8,10 +8,10 @@ package androidx.navigation.ui;
 
 public final class R {
 	public static final class anim {
-		public static final int nav_default_enter_anim = 0x7f010028;
-		public static final int nav_default_exit_anim = 0x7f010029;
-		public static final int nav_default_pop_enter_anim = 0x7f01002a;
-		public static final int nav_default_pop_exit_anim = 0x7f01002b;
+		public static final int nav_default_enter_anim = 0x7f010032;
+		public static final int nav_default_exit_anim = 0x7f010033;
+		public static final int nav_default_pop_enter_anim = 0x7f010034;
+		public static final int nav_default_pop_exit_anim = 0x7f010035;
 	}
 	public static final class animator {
 		public static final int nav_default_enter_anim = 0x7f02001f;

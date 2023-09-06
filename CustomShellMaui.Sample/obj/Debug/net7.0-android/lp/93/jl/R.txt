@@ -6,9 +6,14 @@ int attr fontProviderFetchStrategy 0x0
 int attr fontProviderFetchTimeout 0x0
 int attr fontProviderPackage 0x0
 int attr fontProviderQuery 0x0
+int attr fontProviderSystemFontFamily 0x0
 int attr fontStyle 0x0
 int attr fontVariationSettings 0x0
 int attr fontWeight 0x0
+int attr lStar 0x0
+int attr nestedScrollViewStyle 0x0
+int attr queryPatterns 0x0
+int attr shortcutMatchRequired 0x0
 int attr ttcIndex 0x0
 int color androidx_core_ripple_material_light 0x0
 int color androidx_core_secondary_text_default_material_light 0x0
@@ -107,10 +112,15 @@ int id tag_accessibility_actions 0x0
 int id tag_accessibility_clickable_spans 0x0
 int id tag_accessibility_heading 0x0
 int id tag_accessibility_pane_title 0x0
+int id tag_on_apply_window_listener 0x0
+int id tag_on_receive_content_listener 0x0
+int id tag_on_receive_content_mime_types 0x0
 int id tag_screen_reader_focusable 0x0
+int id tag_state_description 0x0
 int id tag_transition_group 0x0
 int id tag_unhandled_key_event_manager 0x0
 int id tag_unhandled_key_listeners 0x0
+int id tag_window_insets_animation_callback 0x0
 int id text 0x0
 int id text2 0x0
 int id time 0x0
@@ -131,17 +141,23 @@ int style TextAppearance_Compat_Notification_Time 0x0
 int style TextAppearance_Compat_Notification_Title 0x0
 int style Widget_Compat_NotificationActionContainer 0x0
 int style Widget_Compat_NotificationActionText 0x0
-int[] styleable ColorStateListItem { 0x0, 0x101031f, 0x10101a5 }
+int[] styleable Capability { 0x0, 0x0 }
+int styleable Capability_queryPatterns 0
+int styleable Capability_shortcutMatchRequired 1
+int[] styleable ColorStateListItem { 0x0, 0x101031f, 0x10101a5, 0x1010647, 0x0 }
 int styleable ColorStateListItem_alpha 0
 int styleable ColorStateListItem_android_alpha 1
 int styleable ColorStateListItem_android_color 2
-int[] styleable FontFamily { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
+int styleable ColorStateListItem_android_lStar 3
+int styleable ColorStateListItem_lStar 4
+int[] styleable FontFamily { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
 int styleable FontFamily_fontProviderAuthority 0
 int styleable FontFamily_fontProviderCerts 1
 int styleable FontFamily_fontProviderFetchStrategy 2
 int styleable FontFamily_fontProviderFetchTimeout 3
 int styleable FontFamily_fontProviderPackage 4
 int styleable FontFamily_fontProviderQuery 5
+int styleable FontFamily_fontProviderSystemFontFamily 6
 int[] styleable FontFamilyFont { 0x1010532, 0x101053f, 0x1010570, 0x1010533, 0x101056f, 0x0, 0x0, 0x0, 0x0, 0x0 }
 int styleable FontFamilyFont_android_font 0
 int styleable FontFamilyFont_android_fontStyle 1

@@ -4261,3 +4261,6 @@ kotlinx.coroutines.flow.StateFlow;kotlinx.coroutines.flow.StateFlow
 Xamarin.KotlinX.Coroutines.Channels.IChannelIterator, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.channels.ChannelIterator
 Xamarin.KotlinX.Coroutines.Channels.IChannelIterator;kotlinx.coroutines.channels.ChannelIterator
 kotlinx.coroutines.channels.ChannelIterator;kotlinx.coroutines.channels.ChannelIterator
+CustomShellMaui.Platforms.Android.CustomShellItemRenderer, CustomShellMaui;crc64f0cc1cd81cb3f4ba.CustomShellItemRenderer
+CustomShellMaui.Platforms.Android.CustomShellItemRenderer;crc64f0cc1cd81cb3f4ba.CustomShellItemRenderer
+customshellmaui.platforms.android.CustomShellItemRenderer;crc64f0cc1cd81cb3f4ba.CustomShellItemRenderer

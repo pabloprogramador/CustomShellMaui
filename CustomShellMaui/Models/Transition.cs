@@ -3,15 +3,19 @@ using CustomShellMaui.Enum;
 
 namespace CustomShellMaui.Models
 {
-	public class Transition
-	{
-		public static TransitionType Root { get; set; } = TransitionType.Fade;
-		public static TransitionType Push { get; set; } = TransitionType.Fade;
-        public static TransitionType Pop { get; set; } = TransitionType.Fade;
+    public class Transition
+    {
+        public TransitionType CurrentPage { get; set; } = TransitionType.None;
+        public TransitionType NextPage { get; set; } = TransitionType.None;
 
-		public static bool IsCustomTransition { get; set; } = false;
+#if ANDROID
+        //ResourcesAndroid xml animation
+        public int CurrentPageAndroid { get; set; }
+        public int NextPageAndroid { get; set; }
 
-
-
+#elif IOS
+        public CustomShellMaui.Platforms.iOS.Config CurrentPageIos { get; set; }
+        public CustomShellMaui.Platforms.iOS.Config NextPageIos { get; set; }
+#endif
     }
 }

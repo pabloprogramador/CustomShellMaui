@@ -110,53 +110,92 @@ namespace CustomShellMaui
 			// aapt resource value: 0x7F01001B
 			public static int design_snackbar_out = 2130771995;
 			
-			// aapt resource value: 0x7F01001C
-			public static int enterfromleft = 2130771996;
-			
-			// aapt resource value: 0x7F01001D
-			public static int enterfromright = 2130771997;
-			
-			// aapt resource value: 0x7F01001E
-			public static int exittoleft = 2130771998;
-			
-			// aapt resource value: 0x7F01001F
-			public static int exittoright = 2130771999;
-			
 			// aapt resource value: 0x7F010020
-			public static int fragment_fast_out_extra_slow_in = 2130772000;
+			public static int enterfromleft = 2130772000;
 			
 			// aapt resource value: 0x7F010021
-			public static int linear_indeterminate_line1_head_interpolator = 2130772001;
+			public static int enterfromright = 2130772001;
 			
-			// aapt resource value: 0x7F010022
-			public static int linear_indeterminate_line1_tail_interpolator = 2130772002;
+			// aapt resource value: 0x7F01001C
+			public static int enter_bottom = 2130771996;
 			
-			// aapt resource value: 0x7F010023
-			public static int linear_indeterminate_line2_head_interpolator = 2130772003;
+			// aapt resource value: 0x7F01001D
+			public static int enter_left = 2130771997;
 			
-			// aapt resource value: 0x7F010024
-			public static int linear_indeterminate_line2_tail_interpolator = 2130772004;
+			// aapt resource value: 0x7F01001E
+			public static int enter_right = 2130771998;
 			
-			// aapt resource value: 0x7F010025
-			public static int mtrl_bottom_sheet_slide_in = 2130772005;
+			// aapt resource value: 0x7F01001F
+			public static int enter_top = 2130771999;
 			
 			// aapt resource value: 0x7F010026
-			public static int mtrl_bottom_sheet_slide_out = 2130772006;
+			public static int exittoleft = 2130772006;
 			
 			// aapt resource value: 0x7F010027
-			public static int mtrl_card_lowers_interpolator = 2130772007;
+			public static int exittoright = 2130772007;
+			
+			// aapt resource value: 0x7F010022
+			public static int exit_bottom = 2130772002;
+			
+			// aapt resource value: 0x7F010023
+			public static int exit_left = 2130772003;
+			
+			// aapt resource value: 0x7F010024
+			public static int exit_right = 2130772004;
+			
+			// aapt resource value: 0x7F010025
+			public static int exit_top = 2130772005;
 			
 			// aapt resource value: 0x7F010028
-			public static int nav_default_enter_anim = 2130772008;
+			public static int fade_in = 2130772008;
 			
 			// aapt resource value: 0x7F010029
-			public static int nav_default_exit_anim = 2130772009;
+			public static int fade_out = 2130772009;
 			
 			// aapt resource value: 0x7F01002A
-			public static int nav_default_pop_enter_anim = 2130772010;
+			public static int fragment_fast_out_extra_slow_in = 2130772010;
 			
 			// aapt resource value: 0x7F01002B
-			public static int nav_default_pop_exit_anim = 2130772011;
+			public static int linear_indeterminate_line1_head_interpolator = 2130772011;
+			
+			// aapt resource value: 0x7F01002C
+			public static int linear_indeterminate_line1_tail_interpolator = 2130772012;
+			
+			// aapt resource value: 0x7F01002D
+			public static int linear_indeterminate_line2_head_interpolator = 2130772013;
+			
+			// aapt resource value: 0x7F01002E
+			public static int linear_indeterminate_line2_tail_interpolator = 2130772014;
+			
+			// aapt resource value: 0x7F01002F
+			public static int mtrl_bottom_sheet_slide_in = 2130772015;
+			
+			// aapt resource value: 0x7F010030
+			public static int mtrl_bottom_sheet_slide_out = 2130772016;
+			
+			// aapt resource value: 0x7F010031
+			public static int mtrl_card_lowers_interpolator = 2130772017;
+			
+			// aapt resource value: 0x7F010032
+			public static int nav_default_enter_anim = 2130772018;
+			
+			// aapt resource value: 0x7F010033
+			public static int nav_default_exit_anim = 2130772019;
+			
+			// aapt resource value: 0x7F010034
+			public static int nav_default_pop_enter_anim = 2130772020;
+			
+			// aapt resource value: 0x7F010035
+			public static int nav_default_pop_exit_anim = 2130772021;
+			
+			// aapt resource value: 0x7F010036
+			public static int none = 2130772022;
+			
+			// aapt resource value: 0x7F010037
+			public static int scale_in = 2130772023;
+			
+			// aapt resource value: 0x7F010038
+			public static int scale_out = 2130772024;
 			
 			static Animation()
 			{
