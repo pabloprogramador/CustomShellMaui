@@ -1,11 +1,6 @@
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-android/CustomShellMaui.Sample.runtimeconfig.json
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-android/CustomShellMaui.Sample.dll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-android/CustomShellMaui.Sample.pdb
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-android/com.companyname.customshellmaui.sample.apk
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-android/com.companyname.customshellmaui.sample.aab
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-android/com.companyname.customshellmaui.sample-Signed.aab
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-android/com.companyname.customshellmaui.sample-Signed.apk
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-android/com.companyname.customshellmaui.sample-Signed.apk.idsig
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/build.props
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/adb.props
@@ -99,10 +94,7 @@
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/CustomShellMaui.Sample.pdb
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/CustomShellMaui.Sample.genruntimeconfig.cache
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/CustomShellMaui.Sample.runtimeconfig.json.bin
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/bin/com.companyname.customshellmaui.sample.apk
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/bin/base.zip
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/bin/com.companyname.customshellmaui.sample.aab
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/bin/com.companyname.customshellmaui.sample.apks
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/res/values/colors.xml
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/uploadflags.txt
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/resolvedassemblies.hash
@@ -979,3 +971,13 @@
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/assets/System.Xml.dll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/src/crc64f0cc1cd81cb3f4ba/CustomShellItemRenderer.java
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/lp/151/jl/files.cache
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/res/anim/custom_in.xml
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-android/com.pablomobi.CSMaui.apk
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-android/com.pablomobi.CSMaui.aab
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-android/com.pablomobi.CSMaui-Signed.aab
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-android/com.pablomobi.CSMaui-Signed.apk
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-android/com.pablomobi.CSMaui-Signed.apk.idsig
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/bin/com.pablomobi.CSMaui.apk
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/bin/com.pablomobi.CSMaui.aab
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/bin/com.pablomobi.CSMaui.apks
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/src/com/pablomobi/csmaui/R.java

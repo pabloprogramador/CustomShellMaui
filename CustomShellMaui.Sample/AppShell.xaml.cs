@@ -17,18 +17,18 @@ public partial class AppShell : Shell
 		{
 			Root = new Models.TransitionRoot
 			{
-				NextPage = Enum.TransitionType.RightIn,
-				CurrentPage = Enum.TransitionType.LeftOut
+				CurrentPage = Enum.TransitionType.FadeOut,
+				NextPage = Enum.TransitionType.None
 			},
 			Push = new Models.Transition
 			{
-				NextPageAndroid = Resource.Animation.custom_id,
-                CurrentPage = Enum.TransitionType.None,
+                CurrentPage = Enum.TransitionType.FadeOut,
+                NextPage = Enum.TransitionType.None
             },
 			Pop = new Models.Transition
 			{
-                NextPage = Enum.TransitionType.FadeIn,
-                CurrentPage = Enum.TransitionType.None	
+                CurrentPage = Enum.TransitionType.FadeOut,
+                NextPage = Enum.TransitionType.None
             }
 		});
 		

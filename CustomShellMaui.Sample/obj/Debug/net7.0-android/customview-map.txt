@@ -108,3 +108,4 @@ translate;/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/n
 translate;/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/lp/154/jl/res/anim/nav_default_exit_anim.xml
 translate;/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/lp/154/jl/res/anim/nav_default_pop_enter_anim.xml
 translate;/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/lp/154/jl/res/anim/nav_default_pop_exit_anim.xml
+translate;obj/Debug/net7.0-android/res/anim/custom_in.xml

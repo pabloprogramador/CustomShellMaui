@@ -15,13 +15,28 @@
                 HorizontalOptions="Center" />
 
             <Button
+                Text="Open Custom Config"
+                Clicked="OnCustomRoot"
+                HorizontalOptions="Center" />
+
+            <Button
                 Text="Open Root Fade"
                 Clicked="OnFadeRoot"
                 HorizontalOptions="Center" />
 
             <Button
-                Text="Open Push Left/Right"
+                Text="Open Push and Pop Left/Right"
                 Clicked="OnPushLeftRight"
+                HorizontalOptions="Center" />
+
+            <Button
+                Text="Open Push and Pop Top/Bottom"
+                Clicked="OnTopBottom"
+                HorizontalOptions="Center" />
+
+            <Button
+                Text="Open Push and Pop  Scale"
+                Clicked="OnScale"
                 HorizontalOptions="Center" />
 
         </VerticalStackLayout>

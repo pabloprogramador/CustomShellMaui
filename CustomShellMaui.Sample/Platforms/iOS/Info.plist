@@ -28,5 +28,9 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/appicon.appiconset</string>
+	<key>CFBundleDisplayName</key>
+	<string>CSMaui</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.pablomobi.CSMaui</string>
 </dict>
 </plist>

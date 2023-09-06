@@ -5,11 +5,10 @@
     As alterações feitas neste arquivo poderão causar comportamento incorreto e serão perdidas se
     o conteúdo for regenerado.
     -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" package="com.companyname.customshellmaui.sample" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.pablomobi.CSMaui" android:versionCode="1" android:versionName="1.0">
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
-  <application android:allowBackup="true" android:icon="@mipmap/appicon" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true" android:name="crc640482d5cad9e499cd.MainApplication" android:label="CustomShellMaui.Sample" android:debuggable="true" android:extractNativeLibs="true">
+  <application android:allowBackup="true" android:icon="@mipmap/appicon" android:supportsRtl="true" android:label="CSMaui" android:name="crc640482d5cad9e499cd.MainApplication" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:theme="@style/Maui.SplashTheme" android:name="crc640482d5cad9e499cd.MainActivity" android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -17,7 +16,7 @@
       </intent-filter>
     </activity>
     <activity android:configChanges="orientation|screenSize" android:exported="true" android:name="crc6468b6408a11370c2f.WebAuthenticatorIntermediateActivity" />
-    <provider android:authorities="com.companyname.customshellmaui.sample.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="microsoft.maui.essentials.fileProvider">
+    <provider android:authorities="com.pablomobi.CSMaui.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="microsoft.maui.essentials.fileProvider">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/microsoft_maui_essentials_fileprovider_file_paths" />
     </provider>
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Connectivity Broadcast Receiver" android:name="crc64e53d2f592022988e.ConnectivityBroadcastReceiver" />
@@ -25,6 +24,8 @@
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" android:name="crc640a8d9a12ddbf2cf2.BatteryBroadcastReceiver" />
     <receiver android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" android:name="crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver" />
     <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.customshellmaui.sample.mono.MonoRuntimeProvider.__mono_init__" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.pablomobi.CSMaui.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="21" />
 </manifest>

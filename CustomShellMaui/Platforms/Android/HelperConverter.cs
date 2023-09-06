@@ -10,6 +10,7 @@ namespace CustomShellMaui.Platforms.Android
             var config = new ConfigAndroid();
             var animation = CustomShellMauiExtensions.GetAnimation();
             config.AbouvePage = animation.Root.AbovePage;
+            config.Duration = animation.Root.DurationAndroid;
             
                 config.AnimationIn = animation.Root.NextPageAndroid <= 0
                 ? GetAnimation(animation.Root.NextPage)
@@ -87,7 +88,7 @@ namespace CustomShellMaui.Platforms.Android
                     result = Resource.Animation.enter_right;
                     break;
                 case TransitionType.RightOut:
-                    result = Resource.Animation.enter_right;
+                    result = Resource.Animation.exit_right;
                     break;
                 case TransitionType.ScaleIn:
                     result = Resource.Animation.scale_in;
@@ -110,6 +111,7 @@ namespace CustomShellMaui.Platforms.Android
             public int AnimationIn;
             public int AnimationOut;
             public Enum.PageType AbouvePage;
+            public int Duration;
         }
 
     }

@@ -46,7 +46,7 @@ namespace CustomShellMaui.Platforms.Android
                 transaction.Add(targetView.Id, fragment);
                 Task.Run(async () =>
                 {
-                    await Task.Delay(500);
+                    await Task.Delay(animation.Duration);
                     FragmentTransaction transactionTemp = manager.BeginTransaction();
                     transactionTemp.Replace(fragment.Id, fragment);
                     transactionTemp.CommitAllowingStateLoss();

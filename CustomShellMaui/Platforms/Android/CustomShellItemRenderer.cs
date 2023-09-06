@@ -22,7 +22,7 @@ namespace CustomShellMaui.Platforms.Android
 
                 case ShellNavigationSource.Pop:
                 case ShellNavigationSource.PopToRoot:
-                    var pop = HelperConverter.GetPush();
+                    var pop = HelperConverter.GetPop();
                     t.SetCustomAnimations(pop.AnimationIn, pop.AnimationOut);
                     break;
 

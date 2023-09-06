@@ -10,6 +10,7 @@ namespace CustomShellMaui.Models
 
 #if ANDROID
         //ResourcesAndroid xml animation
+        public int DurationAndroid { get; set; } = 500;
         public int CurrentPageAndroid { get; set; }
         public int NextPageAndroid { get; set; }
 
