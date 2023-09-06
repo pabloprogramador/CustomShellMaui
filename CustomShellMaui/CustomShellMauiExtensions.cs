@@ -10,7 +10,7 @@ public static class CustomShellMauiExtensions
         _transitions = transitions;
     }
 
-    public static Transitions GetAnimation()
+    public static Transitions GetTransitions()
     {
         return _transitions;
     }

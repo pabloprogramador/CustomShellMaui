@@ -432,7 +432,6 @@
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/assets/Xamarin.Kotlin.StdLib.Jdk8.dll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/assets/Xamarin.KotlinX.Coroutines.Android.dll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/assets/Xamarin.KotlinX.Coroutines.Core.Jvm.dll
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/typemaps.x86_64.ll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/AndroidManifest.xml
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/AndroidManifest.xml
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/__environment__.txt
@@ -441,7 +440,6 @@
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/bin/mono.android.jar
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/static.flag
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/buildid.txt
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/environment.x86_64.ll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/src/androidx/activity/ktx/R.java
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/src/androidx/activity/R.java
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/src/androidx/annotation/experimental/R.java
@@ -920,13 +918,6 @@
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/src/mono/com/google/android/material/textfield/TextInputLayout_OnEndIconChangedListenerImplementor.java
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/src/mono/MonoPackageManager_Resources.java
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/bin/packaged_resources
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/src/com/companyname/customshellmaui/sample/R.java
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/compressed_assemblies.x86_64.ll
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/typemaps.x86_64.o
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/environment.x86_64.o
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/compressed_assemblies.x86_64.o
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/jni_remap.x86_64.o
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/app_shared_libraries/x86_64/libxamarin-app.so
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/bin/classes.dex
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/bin/classes2.dex
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/stamp/_CleanIntermediateIfNeeded.stamp
@@ -981,3 +972,11 @@
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/bin/com.pablomobi.CSMaui.aab
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/bin/com.pablomobi.CSMaui.apks
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/src/com/pablomobi/csmaui/R.java
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/typemaps.x86_64.ll
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/environment.x86_64.ll
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/compressed_assemblies.x86_64.ll
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/typemaps.x86_64.o
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/environment.x86_64.o
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/compressed_assemblies.x86_64.o
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/android/jni_remap.x86_64.o
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-android/app_shared_libraries/x86_64/libxamarin-app.so

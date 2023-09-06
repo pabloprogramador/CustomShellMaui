@@ -13,11 +13,11 @@ namespace CustomShellMaui.Platforms.iOS
         public static ConfigIosTransitions GetRoot()
         {
             var config = new ConfigIosTransitions();
-            var animation = CustomShellMauiExtensions.GetAnimation();
+            var animation = CustomShellMauiExtensions.GetTransitions();
             config.AbouvePage = animation.Root.AbovePage;
             
-            config.AnimationIn = animation.Root.NextPageIos ?? GetAnimation(animation.Root.NextPage);
-            config.AnimationOut = animation.Root.CurrentPageIos ?? GetAnimation(animation.Root.CurrentPage);
+            config.AnimationIn = animation.Root.NextPageIos ?? GetAnimation(animation.Root.NextPage) ?? new ConfigIos();
+            config.AnimationOut = animation.Root.CurrentPageIos ?? GetAnimation(animation.Root.CurrentPage) ?? new ConfigIos();
 
             return config;
         }
@@ -25,18 +25,18 @@ namespace CustomShellMaui.Platforms.iOS
         public static ConfigIosTransitions GetPush()
         {
             var config = new ConfigIosTransitions();
-            var animation = CustomShellMauiExtensions.GetAnimation();
-            config.AnimationIn = animation.Push.NextPageIos ?? GetAnimation(animation.Push.NextPage);
-            config.AnimationOut = animation.Push.CurrentPageIos ?? GetAnimation(animation.Push.CurrentPage);
+            var animation = CustomShellMauiExtensions.GetTransitions();
+            config.AnimationIn = animation.Push.NextPageIos ?? GetAnimation(animation.Push.NextPage) ?? new ConfigIos();
+            config.AnimationOut = animation.Push.CurrentPageIos ?? GetAnimation(animation.Push.CurrentPage) ?? new ConfigIos();
             return config;
         }
 
         public static ConfigIosTransitions GetPop()
         {
             var config = new ConfigIosTransitions();
-            var animation = CustomShellMauiExtensions.GetAnimation();
-            config.AnimationIn = animation.Pop.NextPageIos ?? GetAnimation(animation.Pop.NextPage);
-            config.AnimationOut = animation.Pop.CurrentPageIos ?? GetAnimation(animation.Pop.CurrentPage);
+            var animation = CustomShellMauiExtensions.GetTransitions();
+            config.AnimationIn = animation.Pop.NextPageIos ?? GetAnimation(animation.Pop.NextPage) ?? new ConfigIos();
+            config.AnimationOut = animation.Pop.CurrentPageIos ?? GetAnimation(animation.Pop.CurrentPage) ?? new ConfigIos();
             return config;
         }
 
@@ -134,20 +134,25 @@ namespace CustomShellMaui.Platforms.iOS
                     };
                     break;
                 case TransitionType.None:
-                    result = new ConfigIos();
+                    result = new ConfigIos
+                    {
+                        OpacityStart = 1,
+                        OpacityEnd = 1.1
+                    };
                     break;
                 default:
-                    result = new ConfigIos();
+                    result = new ConfigIos
+                    {
+                        OpacityStart = 1,
+                        OpacityEnd = 1.1
+                    };
                     break;
             }
             return result;
         }
 
-        public static void Animate(UIView view, ConfigIos config)
+        public static void Animate(UIView view, ConfigIos config, Action callBack = null)
         {
-
-            //FixToStart(currentView, Math.Max(ConfigIosCurrent.Duration, ConfigIosNext.Duration));
-
             view.Layer.Opacity = (float)config.OpacityStart;
             view.Transform = CGAffineTransform.MakeWithComponents(
                 new CoreFoundation.CGAffineTransformComponents()
@@ -156,7 +161,6 @@ namespace CustomShellMaui.Platforms.iOS
                     Translation = new CGVector(PosX(config.XStart, view), PosY(config.YStart, view)),
                     Rotation = PosRotation(config.RotationStart)
                 });
-
 
             UIView.Animate(config.Duration, 0, UIViewAnimationOptions.CurveEaseInOut,
                 () =>
@@ -169,11 +173,11 @@ namespace CustomShellMaui.Platforms.iOS
                             Rotation = PosRotation(config.RotationEnd)
                         });
                     view.Layer.Opacity = (float)config.OpacityEnd;
-                }, null
+                }, callBack
             );
         }
 
-        private static void FixToStart(UIView view, double duration = 0.5)
+        public static void FixToStart(UIView view, double duration = 0.5)
         {
             var transition = CATransition.CreateAnimation();
 

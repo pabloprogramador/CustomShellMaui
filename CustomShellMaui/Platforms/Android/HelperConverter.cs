@@ -8,7 +8,7 @@ namespace CustomShellMaui.Platforms.Android
         public static ConfigAndroid GetRoot()
         {
             var config = new ConfigAndroid();
-            var animation = CustomShellMauiExtensions.GetAnimation();
+            var animation = CustomShellMauiExtensions.GetTransitions();
             config.AbouvePage = animation.Root.AbovePage;
             config.Duration = animation.Root.DurationAndroid;
             
@@ -26,7 +26,7 @@ namespace CustomShellMaui.Platforms.Android
         public static ConfigAndroid GetPush()
         {
             var config = new ConfigAndroid();
-            var animation = CustomShellMauiExtensions.GetAnimation();
+            var animation = CustomShellMauiExtensions.GetTransitions();
             
             config.AnimationIn = animation.Push.NextPageAndroid <= 0
             ? GetAnimation(animation.Push.NextPage)
@@ -42,7 +42,7 @@ namespace CustomShellMaui.Platforms.Android
         public static ConfigAndroid GetPop()
         {
             var config = new ConfigAndroid();
-            var animation = CustomShellMauiExtensions.GetAnimation();
+            var animation = CustomShellMauiExtensions.GetTransitions();
 
             config.AnimationIn = animation.Pop.NextPageAndroid <= 0
             ? GetAnimation(animation.Pop.NextPage)

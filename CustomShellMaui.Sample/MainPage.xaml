@@ -8,7 +8,13 @@
             Spacing="25"
             Padding="30,0"
             VerticalOptions="Center">
+            <VerticalStackLayout>
+                
+                <Label Text="CUSTOM SHELL" FontSize="30" HorizontalTextAlignment="Center"/>
+                <Label Text="MAUI" FontSize="35" FontAttributes="Bold" FontFamily="arialblack" HorizontalTextAlignment="Center"/>
+                <Label Text="TRANSITION ANIMATION" HorizontalOptions="Center" BackgroundColor="GreenYellow" FontSize="16" FontAttributes="Bold" FontFamily="arial" HorizontalTextAlignment="Center"/>
 
+            </VerticalStackLayout>
             <Button
                 Text="Open"
                 Clicked="OnCurrentRoot" BackgroundColor="Purple" 
@@ -38,7 +44,7 @@
                 Text="Push and Pop  Scale"
                 Clicked="OnScale"
                 HorizontalOptions="Center" />
-
+            <Label HorizontalTextAlignment="Center" TextColor="Blue">https://github.com/pabloprogramador/CustomShellMaui</Label>
         </VerticalStackLayout>
     </ScrollView>
 

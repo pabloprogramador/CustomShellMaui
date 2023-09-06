@@ -24,16 +24,16 @@ namespace CustomShellMaui.Platforms.iOS
             {
                 oldView.Superview.InsertSubviewBelow(newView, oldView);
             }
-
-            HelperConverter.Animate(oldView, anim.AnimationOut);
-            HelperConverter.Animate(newView, anim.AnimationIn);
-
-            UIView.Animate(Math.Max(anim.AnimationIn.Duration, anim.AnimationOut.Duration), 0, UIViewAnimationOptions.BeginFromCurrentState,
-                null,
-                () =>
+            var actionOut = () =>
             {
                 task.TrySetResult(true);
-            });
+            };
+            var actionIn = actionOut;
+            if(anim.AnimationIn.Duration > anim.AnimationOut.Duration) { actionOut = null;  } else { actionIn = null; }
+            
+
+            HelperConverter.Animate(oldView, anim.AnimationOut, actionOut);
+            HelperConverter.Animate(newView, anim.AnimationIn, actionIn);
 
             return task.Task;
         }
