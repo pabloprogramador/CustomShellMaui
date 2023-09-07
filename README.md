@@ -1,5 +1,5 @@
 # Custom Shell Maui
-Custom pages with animation transition.
+Custom Shell Navigation with custom animation transition.
 A .NET MAUI library for easily customizable animations of transitions of pages.
 
 Thanks you https://github.com/jsuarezruiz for inspiring this project.
