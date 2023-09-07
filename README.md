@@ -2,7 +2,8 @@
 Custom Shell Navigation with custom animation transition.
 A .NET MAUI library for easily customizable animations of transitions of pages.
 
-Thanks you https://github.com/jsuarezruiz for inspiring this project.
+Thanks github.com/jsuarezruiz for inspiring this project.
+[Xamarin.Forms Page Transitions](https://github.com/jsuarezruiz/xamarin-forms-page-transitions)
 
 The library consists of one NuGet packages:
 
