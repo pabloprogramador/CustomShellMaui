@@ -1,6 +1,7 @@
-# CustomShellMaui
-Custom pages animation transition.
+# Custom Shell Maui
+Custom pages with animation transition.
 A .NET MAUI library for easily customizable animations of transitions of pages.
+Thanks you https://github.com/jsuarezruiz for inspiring this project.
 
 The library consists of one NuGet packages:
 
@@ -38,16 +39,17 @@ Shell.Current.CustomShellMaui(new Models.Transitions
     });
 Shell.Current.GoToAsync(nameof(Pages.New1));
 ```
+|<img src="images/fadeios.gif" height="400">|<img src="images/fadedroid.gif" height="400">|<img src="images/pushios.gif" height="400">|<img src="images/pushdroid.gif" height="400">|
 
-Or you can customize the transitions however you want:
+Or you can customize the advanced transitions however you want:
 ```javascript
 Shell.Current.CustomShellMaui(new Models.Transitions
         {
             Root = new Models.TransitionRoot
             {
-                AbovePage = Enum.PageType.NextPage,
+                AbovePage = Enum.PageType.NextPage, //is forced Above
 #if ANDROID
-                NextPageAndroid = Resource.Animation.custom_in,//is forced Above
+                NextPageAndroid = Resource.Animation.custom_in, //[xml android animation](https://developer.android.com/guide/fragments/animate)
                 DurationAndroid = 1500,
 #elif IOS
                 NextPageIos = new Platforms.iOS.ConfigIos()
@@ -71,3 +73,7 @@ Shell.Current.CustomShellMaui(new Models.Transitions
 Shell.Current.GoToAsync("//" + nameof(Pages.New2));
 //Root navigation i.e. with two slashes (“//“)
 ```
+|<img src="images/customios.gif" height="400">|<img src="images/customdroid.gif" height="400">|
+
+***Android advanced animation must be done using Resource xml, see more in the Google documentation
+https://developer.android.com/guide/fragments/animate
