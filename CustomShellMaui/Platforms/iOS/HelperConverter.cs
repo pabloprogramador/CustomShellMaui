@@ -175,6 +175,7 @@ namespace CustomShellMaui.Platforms.iOS
             );
         }
 
+        //TODO WILL BE ABANDONED AND IMPROVED OVER TIME
         public static void FixToStart(UIView view, double duration = 0.5)
         {
             var transition = CATransition.CreateAnimation();
