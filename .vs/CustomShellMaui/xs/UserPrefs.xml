@@ -1,59 +1,28 @@
 ﻿<Properties StartupConfiguration="{13BDF95C-B99F-4CD9-819C-50DB658EA57B}|Default">
   <MultiItemStartupConfigurations />
   <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CustomShellMaui.Sample/AppShell.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomShellMaui.Sample/MainPage.xaml">
     <Files>
-      <File FileName="CustomShellMaui/CustomShellMauiExtensions.cs" Line="12" Column="1" />
-      <File FileName="CustomShellMaui/Models/Transition.cs" Line="9" Column="75" />
-      <File FileName="CustomShellMaui/Enum/PageType.cs" Line="1" Column="1" />
-      <File FileName="CustomShellMaui/Enum/TransitionType.cs" Line="8" Column="3" />
-      <File FileName="CustomShellMaui/Models/Transitions.cs" Line="6" Column="30" />
-      <File FileName="CustomShellMaui/Platforms/iOS/Config.cs" Line="3" Column="1" />
-      <File FileName="CustomShellMaui/AppBuilderExtensions.cs" Line="7" Column="1" />
-      <File FileName="CustomShellMaui/Platforms/Android/HelperConverter.cs" Line="49" Column="1" />
-      <File FileName="CustomShellMaui/Platforms/Android/CustomShellRenderer.cs" Line="28" Column="1" />
-      <File FileName="CustomShellMaui.Sample/MauiProgram.cs" Line="1" Column="1" />
-      <File FileName="CustomShellMaui.Sample/AppShell.xaml" Line="1" Column="1" />
-      <File FileName="CustomShellMaui.Sample/AppShell.xaml.cs" Line="25" Column="42" />
-      <File FileName="CustomShellMaui/Platforms/Android/CustomShellItemRenderer.cs" Line="31" Column="14" />
-      <File FileName="CustomShellMaui/Models/TransitionRoot.cs" Line="3" Column="1" />
-      <File FileName="CustomShellMaui.Sample/Pages/New1.xaml.cs" Line="8" Column="3" />
-      <File FileName="CustomShellMaui.Sample/Platforms/Android/Resources/anim/custom.xml" Line="18" Column="32" />
-      <File FileName="CustomShellMaui/Platforms/Android/Resources/anim/fade_in.xml" Line="1" Column="1" />
-      <File FileName="CustomShellMaui/Platforms/Android/Resources/anim/scale_in.xml" Line="16" Column="30" />
-      <File FileName="CustomShellMaui.Sample/Pages/New2.xaml" Line="10" Column="42" />
-      <File FileName="CustomShellMaui.Sample/Pages/New1.xaml" Line="9" Column="24" />
-      <File FileName="CustomShellMaui.Sample/Pages/New2.xaml.cs" Line="9" Column="1" />
-      <File FileName="CustomShellMaui.Sample/MainPage.xaml.cs" Line="38" Column="56" />
-      <File FileName="CustomShellMaui.Sample/MainPage.xaml" Line="25" Column="46" />
+      <File FileName="CustomShellMaui.Sample/MauiProgram.cs" Line="12" Column="25" />
+      <File FileName="CustomShellMaui.Sample/AppShell.xaml.cs" Line="1" Column="1" />
+      <File FileName="CustomShellMaui.Sample/MainPage.xaml.cs" Line="46" Column="60" />
+      <File FileName="CustomShellMaui.Sample/MainPage.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CustomShellMaui" expanded="True">
-            <Node name="CustomShellMaui">
-              <Node name="Models" expanded="True" />
-            </Node>
-            <Node name="CustomShellMaui.Sample">
-              <Node name="Pages" expanded="True" />
-              <Node name="Platforms" expanded="True">
-                <Node name="Android" expanded="True">
-                  <Node name="Resources" expanded="True">
-                    <Node name="anim" expanded="True">
-                      <Node name="custom_in.xml" selected="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
+            <Node name="CustomShellMaui.Sample" expanded="True">
               <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_6_Pro_API_33" />
-  <MonoDevelop.Ide.ItemProperties.CustomShellMaui.Sample PreferredExecutionTarget="Android.Pixel_6_Pro_API_33" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.106b8afb0409" />
+  <MonoDevelop.Ide.ItemProperties.CustomShellMaui.Sample PreferredExecutionTarget="Android.106b8afb0409" />
   <MonoDevelop.Ide.ItemProperties.CustomShellMaui PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
