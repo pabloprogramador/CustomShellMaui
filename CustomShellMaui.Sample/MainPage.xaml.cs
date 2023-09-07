@@ -62,6 +62,10 @@ public partial class MainPage : ContentPage
     {
         Shell.Current.CustomShellMaui(new Models.Transitions
         {
+            Root = new Models.TransitionRoot
+            {
+                CurrentPage = Enum.TransitionType.FadeOut //is Above by default 
+            },
             Push = new Models.Transition
             {
                 CurrentPage = Enum.TransitionType.LeftOut,
@@ -80,6 +84,10 @@ public partial class MainPage : ContentPage
     {
         Shell.Current.CustomShellMaui(new Models.Transitions
         {
+            Root = new Models.TransitionRoot
+            {
+                CurrentPage = Enum.TransitionType.FadeOut //is Above by default 
+            },
             Push = new Models.Transition
             {
                 CurrentPage = Enum.TransitionType.BottomOut,
@@ -98,6 +106,10 @@ public partial class MainPage : ContentPage
     {
         Shell.Current.CustomShellMaui(new Models.Transitions
         {
+            Root = new Models.TransitionRoot
+            {
+                CurrentPage = Enum.TransitionType.FadeOut //is Above by default 
+            },
             Push = new Models.Transition
             {
                 CurrentPage = Enum.TransitionType.None,
