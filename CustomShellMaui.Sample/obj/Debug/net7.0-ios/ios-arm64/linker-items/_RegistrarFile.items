@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_RegistrarFile Include="/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-ios/ios-arm64/linker-cache/registrar.mm">
+      <Arch>arm64</Arch>
+      <Arguments>-std=c++14</Arguments>
+    </_RegistrarFile>
+  </ItemGroup>
+</Project>

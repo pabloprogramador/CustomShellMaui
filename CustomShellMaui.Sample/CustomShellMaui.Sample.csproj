@@ -32,6 +32,11 @@
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
 	  <CreatePackage>false</CreatePackage>
+	  <CodesignKey>Apple Development: Pablo Erick (2L2AX2D9ZF)</CodesignKey>
+	  <CodesignProvision>Mobile Display Dev</CodesignProvision>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-ios|AnyCPU'">
+	  <CreatePackage>false</CreatePackage>
 	</PropertyGroup>
 	<ItemGroup>
 		<!-- App Icon -->

@@ -31,6 +31,6 @@
 	<key>CFBundleDisplayName</key>
 	<string>CSMaui</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.pablomobi.CSMaui</string>
+	<string>com.xpandit.mobiledisplay.sample</string>
 </dict>
 </plist>

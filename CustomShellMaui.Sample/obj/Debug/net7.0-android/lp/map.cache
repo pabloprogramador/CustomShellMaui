@@ -1,4 +1,3 @@
-CustomShellMaui.dll
 GoogleGson.dll
 Microsoft.Maui.Controls.Compatibility.dll
 Microsoft.Maui.Controls.dll
@@ -157,3 +156,4 @@ maui.aar
 Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
 Xamarin.Google.Crypto.Tink.Android.aar
+CustomShellMaui.dll

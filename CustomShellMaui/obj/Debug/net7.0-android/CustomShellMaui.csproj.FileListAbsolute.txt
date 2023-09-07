@@ -74,13 +74,6 @@
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/android/bin/base.zip
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/android/bin/CustomShellMaui.CustomShellMaui.aab
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/android/bin/CustomShellMaui.CustomShellMaui.apks
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/uploadflags.txt
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/stamp/_CleanIntermediateIfNeeded.stamp
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/stamp/_ConvertResourcesCases.stamp
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/stamp/_ResolveLibraryProjectImports.stamp
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/res/anim/scale_out.xml
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/res/anim/scale_in.xml
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/res/anim/none.xml
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/res/anim/enter_bottom.xml
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/res/anim/enter_left.xml
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/res/anim/enter_right.xml
@@ -91,3 +84,10 @@
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/res/anim/exit_top.xml
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/res/anim/fade_in.xml
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/res/anim/fade_out.xml
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/res/anim/none.xml
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/res/anim/scale_in.xml
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/res/anim/scale_out.xml
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/uploadflags.txt
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/stamp/_CleanIntermediateIfNeeded.stamp
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/stamp/_ConvertResourcesCases.stamp
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-android/stamp/_ResolveLibraryProjectImports.stamp

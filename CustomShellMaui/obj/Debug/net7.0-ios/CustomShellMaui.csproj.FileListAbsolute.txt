@@ -1,3 +1,5 @@
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui/bin/Debug/net7.0-ios/CustomShellMaui.dll
+/Users/dev/Projects/CustomShellMaui/CustomShellMaui/bin/Debug/net7.0-ios/CustomShellMaui.pdb
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-ios/actool/_PartialAppManifest.items
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-ios/actool/_BundleResourceWithLogicalName.items
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-ios/actool/_ProcessedImageAssetsPath.items
@@ -11,8 +13,6 @@
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-ios/CustomShellMaui.AssemblyInfoInputs.cache
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-ios/CustomShellMaui.AssemblyInfo.cs
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-ios/CustomShellMaui.csproj.CoreCompileInputs.cache
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui/bin/Debug/net7.0-ios/CustomShellMaui.dll
-/Users/dev/Projects/CustomShellMaui/CustomShellMaui/bin/Debug/net7.0-ios/CustomShellMaui.pdb
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-ios/CustomShellMaui.dll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-ios/refint/CustomShellMaui.dll
 /Users/dev/Projects/CustomShellMaui/CustomShellMaui/obj/Debug/net7.0-ios/CustomShellMaui.pdb

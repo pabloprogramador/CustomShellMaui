@@ -154,24 +154,22 @@ namespace CustomShellMaui.Platforms.iOS
         public static void Animate(UIView view, ConfigIos config, Action callBack = null)
         {
             view.Layer.Opacity = (float)config.OpacityStart;
-            view.Transform = CGAffineTransform.MakeWithComponents(
-                new CoreFoundation.CGAffineTransformComponents()
-                {
-                    Scale = new CGSize((float)config.ScaleStart, (float)config.ScaleStart),
-                    Translation = new CGVector(PosX(config.XStart, view), PosY(config.YStart, view)),
-                    Rotation = PosRotation(config.RotationStart)
-                });
+            var trans = CGAffineTransform.MakeTranslation(PosX(config.XStart, view), PosY(config.YStart, view));
+            var scale = CGAffineTransform.MakeScale((float)config.ScaleStart, (float)config.ScaleStart);
+            var rotation = CGAffineTransform.MakeRotation(PosRotation(config.RotationStart));
+            trans.Multiply(scale);
+            trans.Multiply(rotation);
+            view.Transform = trans;
 
             UIView.Animate(config.Duration, 0, UIViewAnimationOptions.CurveEaseInOut,
                 () =>
                 {
-                    view.Transform = CGAffineTransform.MakeWithComponents(
-                        new CoreFoundation.CGAffineTransformComponents()
-                        {
-                            Scale = new CGSize((float)config.ScaleEnd, (float)config.ScaleEnd),
-                            Translation = new CGVector(PosX(config.XEnd, view), PosY(config.YEnd, view)),
-                            Rotation = PosRotation(config.RotationEnd)
-                        });
+                var scale = CGAffineTransform.MakeScale((float)config.ScaleEnd, (float)config.ScaleEnd);
+                    var trans = CGAffineTransform.MakeTranslation(PosX(config.XEnd, view), PosY(config.YEnd, view));
+                    var rotation = CGAffineTransform.MakeRotation(PosRotation(config.RotationEnd));
+                    trans.Multiply(scale);
+                    trans.Multiply(rotation);
+                    view.Transform = trans;
                     view.Layer.Opacity = (float)config.OpacityEnd;
                 }, callBack
             );
