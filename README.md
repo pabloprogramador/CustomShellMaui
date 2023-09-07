@@ -2,7 +2,7 @@
 Custom pages animation transition.
 A .NET MAUI library for easily customizable animations of transitions of pages.
 
-The library consists of three NuGet packages:
+The library consists of one NuGet packages:
 
 [![NuGet](https://img.shields.io/nuget/v/CustomShellMaui.svg?label=CustomShellMaui)](https://www.nuget.org/packages/CustomShellMaui/)
 
