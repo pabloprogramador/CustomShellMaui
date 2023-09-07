@@ -1,6 +1,7 @@
 # Custom Shell Maui
 Custom pages with animation transition.
 A .NET MAUI library for easily customizable animations of transitions of pages.
+
 Thanks you https://github.com/jsuarezruiz for inspiring this project.
 
 The library consists of one NuGet packages:
@@ -16,7 +17,15 @@ var builder = MauiApp.CreateBuilder();
       .UseMauiApp<App>()
       .UseCustomShellMaui()
 ```
-Animations are divided into Root, Push, Pop
+Animations are divided into Root, Push, Pop.
+
+Configure animations for the current page and next page
+
+|<img src="images/above1.png" height="200">|<img src="images/above2.png" height="200">|
+|-|-|
+|Current as above|Next as above|
+
+Also configure which page will be on top of the other with the above option
 
 You can use the default animations:
 ```javascript
@@ -75,5 +84,5 @@ Shell.Current.GoToAsync("//" + nameof(Pages.New2));
 ```
 |<img src="images/customios.gif" height="400">|<img src="images/customdroid.gif" height="400">|
 
-***Android advanced animation must be done using Resource xml, see more in the Google documentation
+***Android advanced animation must be done using Resource xml, see more in the Android documentation
 https://developer.android.com/guide/fragments/animate
