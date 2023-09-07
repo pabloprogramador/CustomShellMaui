@@ -1,27 +1,23 @@
 ﻿<Properties StartupConfiguration="{13BDF95C-B99F-4CD9-819C-50DB658EA57B}|Default">
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.98a674653fdd3d8a4621e12c152ef473819daa7b" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CustomShellMaui PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.CustomShellMaui.Sample automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.98a674653fdd3d8a4621e12c152ef473819daa7b" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
           <Node name="CustomShellMaui" expanded="True">
-            <Node name="CustomShellMaui.Sample">
-              <Node name="Platforms" expanded="True">
-                <Node name="iOS" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="CustomShellMaui" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_6_Pro_API_33" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
+  <MonoDevelop.Ide.ItemProperties.CustomShellMaui.Sample automaticSigning="False" Xamarin.HotReload.EntryPointException.CustomShellMaui.Sample.HideInfoBar="True" PreferredExecutionTarget="Android.Pixel_6_Pro_API_33" />
 </Properties>

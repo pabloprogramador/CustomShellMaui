@@ -15,7 +15,18 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		<UserSecretsId>a5350e8b-ed56-4e98-904f-512ad1e2fd63</UserSecretsId>
+
+		<PackageId>CustomShellMaui</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>pabloprogramador@gmail.com</Authors>
+		<Description>Custom Shell Navigation with custom animation transition. A .NET MAUI library for easily customizable animations of transitions of pages.</Description>
 	</PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+  <Pack>true</Pack>
+</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
 	  <CreatePackage>false</CreatePackage>

@@ -155,3 +155,5 @@ maui.aar
 Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
 Xamarin.Google.Crypto.Tink.Android.aar
+CustomShellMaui.dll
+CustomShellMaui.aar
