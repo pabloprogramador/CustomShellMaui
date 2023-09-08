@@ -17,10 +17,11 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 		
 
-		
+		<PackageId>CustomShellMaui</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>pabloprogramador@gmail.com</Authors>
+		<Description>Custom Shell Navigation with custom animation transition. A .NET MAUI library for easily customizable animations of transitions of pages.</Description>
 	</PropertyGroup>
-
-	
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
 	  <CreatePackage>false</CreatePackage>

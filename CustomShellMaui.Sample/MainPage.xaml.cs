@@ -28,14 +28,19 @@ public partial class MainPage : ContentPage
                 {
                     OpacityStart = 0,
                     OpacityEnd = 1,
+
                     RotationStart = .1,
                     RotationEnd = 0,
+
                     ScaleStart = 1.5,
                     ScaleEnd = 1,
+
                     XStart = 1,
                     XEnd = 0,
+
                     YStart = .3,
                     YEnd = 0,
+
                     Duration = 1.5
                 },
 #endif
