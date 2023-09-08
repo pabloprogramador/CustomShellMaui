@@ -1,23 +1,28 @@
 ﻿<Properties StartupConfiguration="{13BDF95C-B99F-4CD9-819C-50DB658EA57B}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
           <Node name="CustomShellMaui" expanded="True">
-            <Node name="CustomShellMaui" selected="True" />
+            <Node name="CustomShellMaui">
+              <Node name="Models">
+                <Node name="Transitions.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="CustomShellMaui.Sample" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_6_Pro_API_33" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
-  <MonoDevelop.Ide.ItemProperties.CustomShellMaui.Sample automaticSigning="False" Xamarin.HotReload.EntryPointException.CustomShellMaui.Sample.HideInfoBar="True" PreferredExecutionTarget="Android.Pixel_6_Pro_API_33" />
+  <MonoDevelop.Ide.ItemProperties.CustomShellMaui.Sample PreferredExecutionTarget="Android.Pixel_6_Pro_API_33" automaticSigning="False" Xamarin.HotReload.EntryPointException.CustomShellMaui.Sample.HideInfoBar="True" />
 </Properties>

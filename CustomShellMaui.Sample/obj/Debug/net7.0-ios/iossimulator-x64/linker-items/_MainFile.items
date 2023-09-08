@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <_MainFile Include="/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/obj/Debug/net7.0-ios/iossimulator-x64/linker-cache/main.x86_64.mm">
-      <Arch>x86_64</Arch>
-      <Arguments>-DDEBUG</Arguments>
-    </_MainFile>
-  </ItemGroup>
-</Project>
