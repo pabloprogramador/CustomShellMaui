@@ -15,10 +15,10 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="androidx.slidingpanelayout" >
+    package="androidx.swiperefreshlayout" >
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="31" />
+        android:targetSdkVersion="29" />
 
 </manifest>

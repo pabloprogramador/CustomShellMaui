@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="notification_material_background_media_default_color">#ff424242</color>
-    <color name="primary_text_default_material_dark">#ffffffff</color>
-    <color name="secondary_text_default_material_dark">#b3ffffff</color>
-    <item name="media_controller_compat_view_tag" type="id"/>
-    <integer name="cancel_button_image_alpha">127</integer>
-    <style name="TextAppearance.Compat.Notification.Info.Media"/>
-    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/>
-    <style name="TextAppearance.Compat.Notification.Media"/>
-    <style name="TextAppearance.Compat.Notification.Time.Media"/>
-    <style name="TextAppearance.Compat.Notification.Title.Media"/>
+    <dimen name="sliding_pane_detail_pane_width">300dp</dimen>
+    <item name="nav_host_fragment_container" type="id"/>
+    <item name="sliding_pane_detail_container" type="id"/>
+    <item name="sliding_pane_layout" type="id"/>
+    <declare-styleable name="DialogFragmentNavigator">
+        <attr name="android:name"/>
+    </declare-styleable>
+    <declare-styleable name="FragmentNavigator">
+        <attr name="android:name"/>
+    </declare-styleable>
+    <declare-styleable name="NavHostFragment">
+        <attr format="boolean" name="defaultNavHost"/>
+    </declare-styleable>
 </resources>

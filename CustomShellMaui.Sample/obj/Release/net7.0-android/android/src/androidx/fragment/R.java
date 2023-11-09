@@ -8,7 +8,7 @@ package androidx.fragment;
 
 public final class R {
 	public static final class anim {
-		public static final int fragment_fast_out_extra_slow_in = 0x7f010021;
+		public static final int fragment_fast_out_extra_slow_in = 0x7f01002b;
 	}
 	public static final class animator {
 		public static final int fragment_close_enter = 0x7f020003;

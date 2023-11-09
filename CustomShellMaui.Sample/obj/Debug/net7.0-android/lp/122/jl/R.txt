@@ -1,25 +1,28 @@
-int drawable abc_vector_test 0x0
-int[] styleable AnimatedStateListDrawableCompat { 0x1010196, 0x101011c, 0x101030c, 0x101030d, 0x1010195, 0x1010194 }
-int styleable AnimatedStateListDrawableCompat_android_constantSize 0
-int styleable AnimatedStateListDrawableCompat_android_dither 1
-int styleable AnimatedStateListDrawableCompat_android_enterFadeDuration 2
-int styleable AnimatedStateListDrawableCompat_android_exitFadeDuration 3
-int styleable AnimatedStateListDrawableCompat_android_variablePadding 4
-int styleable AnimatedStateListDrawableCompat_android_visible 5
-int[] styleable AnimatedStateListDrawableItem { 0x1010199, 0x10100d0 }
-int styleable AnimatedStateListDrawableItem_android_drawable 0
-int styleable AnimatedStateListDrawableItem_android_id 1
-int[] styleable AnimatedStateListDrawableTransition { 0x1010199, 0x101044a, 0x101044b, 0x1010449 }
-int styleable AnimatedStateListDrawableTransition_android_drawable 0
-int styleable AnimatedStateListDrawableTransition_android_fromId 1
-int styleable AnimatedStateListDrawableTransition_android_reversible 2
-int styleable AnimatedStateListDrawableTransition_android_toId 3
-int[] styleable StateListDrawable { 0x1010196, 0x101011c, 0x101030c, 0x101030d, 0x1010195, 0x1010194 }
-int styleable StateListDrawable_android_constantSize 0
-int styleable StateListDrawable_android_dither 1
-int styleable StateListDrawable_android_enterFadeDuration 2
-int styleable StateListDrawable_android_exitFadeDuration 3
-int styleable StateListDrawable_android_variablePadding 4
-int styleable StateListDrawable_android_visible 5
-int[] styleable StateListDrawableItem { 0x1010199 }
-int styleable StateListDrawableItem_android_drawable 0
+int attr coordinatorLayoutStyle 0x0
+int attr keylines 0x0
+int attr layout_anchor 0x0
+int attr layout_anchorGravity 0x0
+int attr layout_behavior 0x0
+int attr layout_dodgeInsetEdges 0x0
+int attr layout_insetEdge 0x0
+int attr layout_keyline 0x0
+int attr statusBarBackground 0x0
+int id bottom 0x0
+int id end 0x0
+int id left 0x0
+int id none 0x0
+int id right 0x0
+int id start 0x0
+int id top 0x0
+int style Widget_Support_CoordinatorLayout 0x0
+int[] styleable CoordinatorLayout { 0x0, 0x0 }
+int styleable CoordinatorLayout_keylines 0
+int styleable CoordinatorLayout_statusBarBackground 1
+int[] styleable CoordinatorLayout_Layout { 0x10100b3, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
+int styleable CoordinatorLayout_Layout_android_layout_gravity 0
+int styleable CoordinatorLayout_Layout_layout_anchor 1
+int styleable CoordinatorLayout_Layout_layout_anchorGravity 2
+int styleable CoordinatorLayout_Layout_layout_behavior 3
+int styleable CoordinatorLayout_Layout_layout_dodgeInsetEdges 4
+int styleable CoordinatorLayout_Layout_layout_insetEdge 5
+int styleable CoordinatorLayout_Layout_layout_keyline 6

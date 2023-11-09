@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "CustomShellMaui/1.0.1": {
+      "CustomShellMaui/1.0.2": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
@@ -148,7 +148,7 @@
     }
   },
   "libraries": {
-    "CustomShellMaui/1.0.1": {
+    "CustomShellMaui/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -5,19 +5,23 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.68" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustomShellMaui.Sample/Platforms/Android/AndroidManifest.xml">
+    <Files>
+      <File FileName="CustomShellMaui.Sample/Platforms/Android/AndroidManifest.xml" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Option id="ShowAllFiles" value="True" />
-          <Node name="CustomShellMaui" expanded="True">
-            <Node name="CustomShellMaui">
-              <Node name="Models">
-                <Node name="Transitions.cs" selected="True" />
+          <Node name="CustomShellMaui">
+            <Node name="CustomShellMaui.Sample">
+              <Node name="Platforms">
+                <Node name="Android">
+                  <Node name="AndroidManifest.xml" selected="True" />
+                </Node>
               </Node>
             </Node>
-            <Node name="CustomShellMaui.Sample" expanded="True" />
           </Node>
         </State>
       </Pad>

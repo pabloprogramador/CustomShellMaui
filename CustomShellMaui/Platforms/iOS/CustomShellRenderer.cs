@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.Maui.Controls.Platform;
 using Microsoft.Maui.Graphics;
+using Microsoft.Maui.Controls;
+using System.Drawing;
 
 namespace CustomShellMaui.Platforms.iOS
 {
@@ -16,8 +18,18 @@ namespace CustomShellMaui.Platforms.iOS
 	{
 		public CustomShellRenderer()
 		{
+            
+        }
 
-		}
+        //protected override IShellPageRendererTracker CreatePageRendererTracker()
+        //{
+        //    return new CustomShellPageRendererTracker(this);
+        //}
+
+        //protected override IShellNavBarAppearanceTracker CreateNavBarAppearanceTracker()
+        //{
+        //    return new CustomShellNavBarAppearanceTracker(this, base.CreateNavBarAppearanceTracker());
+        //}
 
         protected override IShellItemTransition CreateShellItemTransition()
         {

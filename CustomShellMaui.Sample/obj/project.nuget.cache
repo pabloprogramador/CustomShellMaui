@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BdggBFZX5M7Wjq7MTnsK5IYi0sAD6p6tVHFFWfeMWGyC4kxcd+Mf/lg7EA5XZlmOpYx/ZlPGlKV3nD9DQ0/Jmw==",
+  "dgSpecHash": "Q7qrX9pyxKHuQG+KqJLoZy/w8LzBusEJQq8fy/pbCjRSrzuPiHmVsadT4a/1TE3fqjZ7VFLHmCsvl7ISjaH+0w==",
   "success": true,
   "projectFilePath": "/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/CustomShellMaui.Sample.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,7 @@
     "/Users/dev/.nuget/packages/microsoft.extensions.logging.debug/7.0.0/microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
     "/Users/dev/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/dev/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "/Users/dev/.nuget/packages/microsoft.maui.graphics/7.0.92/microsoft.maui.graphics.7.0.92.nupkg.sha512",
+    "/Users/dev/.nuget/packages/microsoft.maui.graphics/7.0.100/microsoft.maui.graphics.7.0.100.nupkg.sha512",
     "/Users/dev/.nuget/packages/xamarin.android.glide/4.13.2.2/xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "/Users/dev/.nuget/packages/xamarin.android.glide.annotations/4.13.2.2/xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "/Users/dev/.nuget/packages/xamarin.android.glide.disklrucache/4.13.2.2/xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",
@@ -95,7 +95,8 @@
     "/Users/dev/.nuget/packages/xamarin.kotlin.stdlib.jdk7/1.7.20.1/xamarin.kotlin.stdlib.jdk7.1.7.20.1.nupkg.sha512",
     "/Users/dev/.nuget/packages/xamarin.kotlin.stdlib.jdk8/1.7.20.1/xamarin.kotlin.stdlib.jdk8.1.7.20.1.nupkg.sha512",
     "/Users/dev/.nuget/packages/xamarin.kotlinx.coroutines.android/1.6.4.1/xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
-    "/Users/dev/.nuget/packages/xamarin.kotlinx.coroutines.core.jvm/1.6.4.1/xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512"
+    "/Users/dev/.nuget/packages/xamarin.kotlinx.coroutines.core.jvm/1.6.4.1/xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
+    "/Users/dev/.nuget/packages/customshellmaui/1.0.2/customshellmaui.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }

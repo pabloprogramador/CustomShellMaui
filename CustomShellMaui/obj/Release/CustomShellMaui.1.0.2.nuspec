@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CustomShellMaui</id>
+    <version>1.0.2</version>
+    <authors>pabloprogramador@gmail.com</authors>
+    <description>Custom Shell Navigation with custom animation transition. A .NET MAUI library for easily customizable animations of transitions of pages.</description>
+    <dependencies>
+      <group targetFramework="net7.0" />
+      <group targetFramework="net7.0-android33.0" />
+      <group targetFramework="net7.0-ios16.1" />
+      <group targetFramework="net7.0-maccatalyst16.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/dev/Projects/CustomShellMaui/CustomShellMaui/bin/Release/net7.0/CustomShellMaui.dll" target="lib/net7.0/CustomShellMaui.dll" />
+    <file src="/Users/dev/Projects/CustomShellMaui/CustomShellMaui/bin/Release/net7.0-android/CustomShellMaui.dll" target="lib/net7.0-android33.0/CustomShellMaui.dll" />
+    <file src="/Users/dev/Projects/CustomShellMaui/CustomShellMaui/bin/Release/net7.0-android/CustomShellMaui.xml" target="lib/net7.0-android33.0/CustomShellMaui.xml" />
+    <file src="/Users/dev/Projects/CustomShellMaui/CustomShellMaui/bin/Release/net7.0-ios/CustomShellMaui.dll" target="lib/net7.0-ios16.1/CustomShellMaui.dll" />
+    <file src="/Users/dev/Projects/CustomShellMaui/CustomShellMaui/bin/Release/net7.0-maccatalyst/CustomShellMaui.dll" target="lib/net7.0-maccatalyst16.1/CustomShellMaui.dll" />
+    <file src="/Users/dev/Projects/CustomShellMaui/CustomShellMaui/bin/Release/net7.0-android/CustomShellMaui.aar" target="lib/net7.0-android33.0/CustomShellMaui.aar" />
+  </files>
+</package>
