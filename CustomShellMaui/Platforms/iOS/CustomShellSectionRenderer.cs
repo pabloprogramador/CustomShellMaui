@@ -6,7 +6,7 @@ using UIKit;
 
 namespace CustomShellMaui.Platforms.iOS
 {
-    public class CustomShellSectionRenderer : ShellSectionRenderer
+    public class CustomShellSectionRenderer: ShellSectionRenderer
     {
         private bool _isPush;
 
@@ -58,6 +58,7 @@ namespace CustomShellMaui.Platforms.iOS
 
         public override void PushViewController(UIViewController viewController, bool animated)
         {
+
             if (animated)
             {
                 var oldView = View.SnapshotView(false);
