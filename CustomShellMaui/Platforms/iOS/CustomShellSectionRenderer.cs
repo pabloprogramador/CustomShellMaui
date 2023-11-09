@@ -14,6 +14,12 @@ namespace CustomShellMaui.Platforms.iOS
         {
         }
 
+        public override void ViewDidLoad()
+        {
+            base.ViewDidLoad();
+            InteractivePopGestureRecognizer.Enabled = !CustomShellMauiExtensions.GetDisabledSwipeBackIos();
+        }
+
         public override UIViewController[] PopToRootViewController(bool animated)
         {
             Pop(animated);

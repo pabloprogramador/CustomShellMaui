@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q7qrX9pyxKHuQG+KqJLoZy/w8LzBusEJQq8fy/pbCjRSrzuPiHmVsadT4a/1TE3fqjZ7VFLHmCsvl7ISjaH+0w==",
+  "dgSpecHash": "XecL2MlGD0+OzE6TaioamGkbOFACUF7Dm39yuhEPjlKIeZQG1eGIroflDDANccgF6vuihjBvs4glPeJ93j6NlA==",
   "success": true,
   "projectFilePath": "/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/CustomShellMaui.Sample.csproj",
   "expectedPackageFiles": [
@@ -95,8 +95,7 @@
     "/Users/dev/.nuget/packages/xamarin.kotlin.stdlib.jdk7/1.7.20.1/xamarin.kotlin.stdlib.jdk7.1.7.20.1.nupkg.sha512",
     "/Users/dev/.nuget/packages/xamarin.kotlin.stdlib.jdk8/1.7.20.1/xamarin.kotlin.stdlib.jdk8.1.7.20.1.nupkg.sha512",
     "/Users/dev/.nuget/packages/xamarin.kotlinx.coroutines.android/1.6.4.1/xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
-    "/Users/dev/.nuget/packages/xamarin.kotlinx.coroutines.core.jvm/1.6.4.1/xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
-    "/Users/dev/.nuget/packages/customshellmaui/1.0.2/customshellmaui.1.0.2.nupkg.sha512"
+    "/Users/dev/.nuget/packages/xamarin.kotlinx.coroutines.core.jvm/1.6.4.1/xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Type="http://schemas.microsoft.com/packaging/2010/07/manifest" Target="/CustomShellMaui.nuspec" Id="RB44E6D4D986D2E5C" />
-  <Relationship Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="/package/services/metadata/core-properties/a8a8769dabf24890957a54f5a30d913c.psmdcp" Id="R431017410F05EE95" />
-</Relationships>

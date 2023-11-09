@@ -18,7 +18,7 @@
 		
 
 		<PackageId>CustomShellMaui</PackageId>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		<Authors>pabloprogramador@gmail.com</Authors>
 		<Description>Custom Shell Navigation with custom animation transition. A .NET MAUI library for easily customizable animations of transitions of pages.</Description>
 	</PropertyGroup>

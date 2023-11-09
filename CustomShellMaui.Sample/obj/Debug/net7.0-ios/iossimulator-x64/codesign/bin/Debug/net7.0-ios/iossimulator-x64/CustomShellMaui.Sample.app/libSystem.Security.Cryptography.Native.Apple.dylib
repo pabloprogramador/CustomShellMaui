@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/bin/Debug/net7.0-ios/iossimulator-x64/CustomShellMaui.Sample.app/libSystem.Security.Cryptography.Native.Apple.dylib

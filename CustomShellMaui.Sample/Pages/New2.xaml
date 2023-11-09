@@ -3,15 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CustomShellMaui.Sample.Pages.New2"
              BackgroundColor="BlueViolet">
-    <Shell.TitleView>
-        
-        <HorizontalStackLayout BackgroundColor="LawnGreen"
-                               HeightRequest="100" VerticalOptions="Center">
-            <Image Source="dotnet_bot"/>
-            <Label Text="My New1" TextColor="Black" FontSize="22"/>
-            <Label Text="Custom Height" TextColor="Black" FontSize="16"/>
-        </HorizontalStackLayout>
-    </Shell.TitleView>
+    
  <VerticalStackLayout Padding="30" Spacing="20">
         <Label 
             Text="OPEN IN ROOT"

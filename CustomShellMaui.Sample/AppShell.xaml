@@ -5,7 +5,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:CustomShellMaui.Sample"
     xmlns:pages="clr-namespace:CustomShellMaui.Sample.Pages"
-
     Shell.FlyoutBehavior="Disabled">
        
     <ShellContent
