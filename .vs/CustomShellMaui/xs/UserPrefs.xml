@@ -1,32 +1,22 @@
 ﻿<Properties StartupConfiguration="{13BDF95C-B99F-4CD9-819C-50DB658EA57B}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CustomShellMaui.Sample Xamarin.HotReload.EntryPointException.CustomShellMaui.Sample.HideInfoBar="True" automaticSigning="False" PreferredExecutionTarget="Android.pixel_5_-_api_33" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.95" />
-  <MultiItemStartupConfigurations />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Option id="ShowAllFiles" value="True" />
-          <Node name="CustomShellMaui" expanded="True">
-            <Node name="CustomShellMaui">
-              <Node name="Platforms">
-                <Node name="Android">
-                  <Node name="CustomShellRenderer.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-            <Node name="CustomShellMaui.Sample">
-              <Node name="MainPage.xaml" expanded="True" />
-            </Node>
+          <Node name="CustomShellMaui" expanded="True" selected="True">
+            <Node name="CustomShellMaui" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CustomShellMaui.Sample automaticSigning="False" Xamarin.HotReload.EntryPointException.CustomShellMaui.Sample.HideInfoBar="True" PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.95" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

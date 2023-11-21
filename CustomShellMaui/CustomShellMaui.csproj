@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
 	<PropertyGroup>
 		<TargetFrameworks>net7.0;net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
 		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
@@ -8,72 +8,77 @@
 		<UseMaui>true</UseMaui>
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
-
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">14.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
-		
-
 		<PackageId>CustomShellMaui</PackageId>
-		<Version>1.0.4</Version>
+		<Version>1.0.6</Version>
 		<Authors>pabloprogramador@gmail.com</Authors>
 		<Description>Custom Shell Navigation with custom animation transition. A .NET MAUI library for easily customizable animations of transitions of pages.</Description>
+		<PackageProjectUrl>https://github.com/pabloprogramador/CustomShellMaui</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/pabloprogramador/CustomShellMaui</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageTags>Shell;Custom;MAUI;Maui</PackageTags>
+		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
-
+		<ItemGroup>
+	  <None Include="icon.png" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
-	  <CreatePackage>false</CreatePackage>
+		<CreatePackage>false</CreatePackage>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Platforms\Android\" />
-	  <None Remove="Platforms\iOS\" />
-	  <None Remove="Platforms\MacCatalyst\" />
-	  <None Remove="Platforms\Windows\" />
-	  <None Remove="Platforms\Tizen\" />
-	  <None Remove="Enum\" />
-	  <None Remove="Models\" />
-	  <None Remove="Platforms\Android\Resources\" />
-	  <None Remove="Platforms\Android\Resources\anim\" />
-	  <None Remove="Platforms\Android\Resources\anim\scale_out.xml" />
-	  <None Remove="Platforms\Android\Resources\anim\scale_in.xml" />
-	  <None Remove="Platforms\Android\Resources\anim\none.xml" />
-	  <None Remove="Platforms\Android\Resources\anim\fade_out.xml" />
-	  <None Remove="Platforms\Android\Resources\anim\fade_in.xml" />
-	  <None Remove="Platforms\Android\Resources\anim\exit_top.xml" />
-	  <None Remove="Platforms\Android\Resources\anim\exit_right.xml" />
-	  <None Remove="Platforms\Android\Resources\anim\exit_left.xml" />
-	  <None Remove="Platforms\Android\Resources\anim\exit_bottom.xml" />
-	  <None Remove="Platforms\Android\Resources\anim\enter_top.xml" />
-	  <None Remove="Platforms\Android\Resources\anim\enter_right.xml" />
-	  <None Remove="Platforms\Android\Resources\anim\enter_left.xml" />
-	  <None Remove="Platforms\Android\Resources\anim\enter_bottom.xml" />
+		<None Remove="Platforms\Android\" />
+		<None Remove="Platforms\iOS\" />
+		<None Remove="Platforms\MacCatalyst\" />
+		<None Remove="Platforms\Windows\" />
+		<None Remove="Platforms\Tizen\" />
+		<None Remove="Enum\" />
+		<None Remove="Models\" />
+		<None Remove="Platforms\Android\Resources\" />
+		<None Remove="Platforms\Android\Resources\anim\" />
+		<None Remove="Platforms\Android\Resources\anim\scale_out.xml" />
+		<None Remove="Platforms\Android\Resources\anim\scale_in.xml" />
+		<None Remove="Platforms\Android\Resources\anim\none.xml" />
+		<None Remove="Platforms\Android\Resources\anim\fade_out.xml" />
+		<None Remove="Platforms\Android\Resources\anim\fade_in.xml" />
+		<None Remove="Platforms\Android\Resources\anim\exit_top.xml" />
+		<None Remove="Platforms\Android\Resources\anim\exit_right.xml" />
+		<None Remove="Platforms\Android\Resources\anim\exit_left.xml" />
+		<None Remove="Platforms\Android\Resources\anim\exit_bottom.xml" />
+		<None Remove="Platforms\Android\Resources\anim\enter_top.xml" />
+		<None Remove="Platforms\Android\Resources\anim\enter_right.xml" />
+		<None Remove="Platforms\Android\Resources\anim\enter_left.xml" />
+		<None Remove="Platforms\Android\Resources\anim\enter_bottom.xml" />
 	</ItemGroup>
 	<ItemGroup>
-	  <Folder Include="Platforms\Android\" />
-	  <Folder Include="Platforms\iOS\" />
-	  <Folder Include="Platforms\MacCatalyst\" />
-	  <Folder Include="Platforms\Windows\" />
-	  <Folder Include="Platforms\Tizen\" />
-	  <Folder Include="Enum\" />
-	  <Folder Include="Models\" />
-	  <Folder Include="Platforms\Android\Resources\" />
-	  <Folder Include="Platforms\Android\Resources\anim\" />
+		<Folder Include="Platforms\Android\" />
+		<Folder Include="Platforms\iOS\" />
+		<Folder Include="Platforms\MacCatalyst\" />
+		<Folder Include="Platforms\Windows\" />
+		<Folder Include="Platforms\Tizen\" />
+		<Folder Include="Enum\" />
+		<Folder Include="Models\" />
+		<Folder Include="Platforms\Android\Resources\" />
+		<Folder Include="Platforms\Android\Resources\anim\" />
 	</ItemGroup>
 	<ItemGroup>
-	  <AndroidResource Include="Platforms\Android\Resources\anim\scale_out.xml" />
-	  <AndroidResource Include="Platforms\Android\Resources\anim\scale_in.xml" />
-	  <AndroidResource Include="Platforms\Android\Resources\anim\none.xml" />
-	  <AndroidResource Include="Platforms\Android\Resources\anim\fade_out.xml" />
-	  <AndroidResource Include="Platforms\Android\Resources\anim\fade_in.xml" />
-	  <AndroidResource Include="Platforms\Android\Resources\anim\exit_top.xml" />
-	  <AndroidResource Include="Platforms\Android\Resources\anim\exit_right.xml" />
-	  <AndroidResource Include="Platforms\Android\Resources\anim\exit_left.xml" />
-	  <AndroidResource Include="Platforms\Android\Resources\anim\exit_bottom.xml" />
-	  <AndroidResource Include="Platforms\Android\Resources\anim\enter_top.xml" />
-	  <AndroidResource Include="Platforms\Android\Resources\anim\enter_right.xml" />
-	  <AndroidResource Include="Platforms\Android\Resources\anim\enter_left.xml" />
-	  <AndroidResource Include="Platforms\Android\Resources\anim\enter_bottom.xml" />
+		<AndroidResource Include="Platforms\Android\Resources\anim\scale_out.xml" />
+		<AndroidResource Include="Platforms\Android\Resources\anim\scale_in.xml" />
+		<AndroidResource Include="Platforms\Android\Resources\anim\none.xml" />
+		<AndroidResource Include="Platforms\Android\Resources\anim\fade_out.xml" />
+		<AndroidResource Include="Platforms\Android\Resources\anim\fade_in.xml" />
+		<AndroidResource Include="Platforms\Android\Resources\anim\exit_top.xml" />
+		<AndroidResource Include="Platforms\Android\Resources\anim\exit_right.xml" />
+		<AndroidResource Include="Platforms\Android\Resources\anim\exit_left.xml" />
+		<AndroidResource Include="Platforms\Android\Resources\anim\exit_bottom.xml" />
+		<AndroidResource Include="Platforms\Android\Resources\anim\enter_top.xml" />
+		<AndroidResource Include="Platforms\Android\Resources\anim\enter_right.xml" />
+		<AndroidResource Include="Platforms\Android\Resources\anim\enter_left.xml" />
+		<AndroidResource Include="Platforms\Android\Resources\anim\enter_bottom.xml" />
 	</ItemGroup>
 </Project>

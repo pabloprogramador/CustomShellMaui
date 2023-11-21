@@ -4763,7 +4763,7 @@
     "/Users/dev/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.0.4",
+    "version": "1.0.6",
     "restore": {
       "projectUniqueName": "/Users/dev/Projects/CustomShellMaui/CustomShellMaui/CustomShellMaui.csproj",
       "projectName": "CustomShellMaui",
