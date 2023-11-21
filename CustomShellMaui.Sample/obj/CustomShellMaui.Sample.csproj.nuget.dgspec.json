@@ -308,9 +308,6 @@
         "iossimulator-x64": {
           "#import": []
         },
-        "maccatalyst-arm64": {
-          "#import": []
-        },
         "maccatalyst-x64": {
           "#import": []
         }

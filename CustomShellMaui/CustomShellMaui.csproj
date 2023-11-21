@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>net7.0;net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
@@ -26,7 +26,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 		<ItemGroup>
-	  <None Include="icon.png" Pack="true" PackagePath="\"/>
+	  <None Include="icon.png" Pack="true" PackagePath="\" />
 	</ItemGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
 		<CreatePackage>false</CreatePackage>

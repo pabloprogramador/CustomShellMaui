@@ -21,16 +21,6 @@ namespace CustomShellMaui.Platforms.iOS
             
         }
 
-        //protected override IShellPageRendererTracker CreatePageRendererTracker()
-        //{
-        //    return new CustomShellPageRendererTracker(this);
-        //}
-
-        //protected override IShellNavBarAppearanceTracker CreateNavBarAppearanceTracker()
-        //{
-        //    return new CustomShellNavBarAppearanceTracker(this, base.CreateNavBarAppearanceTracker());
-        //}
-
         protected override IShellItemTransition CreateShellItemTransition()
         {
             return new CustomShellItemTransition();

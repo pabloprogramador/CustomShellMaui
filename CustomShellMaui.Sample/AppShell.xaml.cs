@@ -10,7 +10,7 @@ public partial class AppShell : Shell
 
 		InitializeComponent();
 
-		//Shell.Current.DisableSwipeBackiOS(true);
+		Shell.Current.DisableSwipeBackiOS(true);
 		Routing.RegisterRoute(nameof(MainPage), typeof(MainPage));
 		Routing.RegisterRoute(nameof(New1), typeof(New1));
 		Routing.RegisterRoute(nameof(New2), typeof(New2));
