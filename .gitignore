@@ -399,3 +399,5 @@ MobileDisplay/.idea/.idea.MobileDisplay/.idea/vcs.xml
 MobileDisplay/.idea/.idea.MobileDisplay/.idea/projectSettingsUpdater.xml
 MobileDisplay/.idea/.idea.MobileDisplay/.idea/indexLayout.xml
 .meteor
+
+*.zip

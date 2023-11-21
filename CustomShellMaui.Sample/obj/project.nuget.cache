@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vKryb6a8UfxkW7+cLJ+/gCID3R1GOxVbPSMJavcOroJnYzoO2WNjXjHwMVMefL2SBUBtQmINdEqs9f2H0tPSnA==",
+  "dgSpecHash": "5yYFym/m1XhCtEnLnawbk1cYrXLiW8R29AEVwtorsgtuY8EjRRQ/KCr84KC5MuB5eQC0gWpq6hK4rfY6/f0DUA==",
   "success": true,
   "projectFilePath": "/Users/dev/Projects/CustomShellMaui/CustomShellMaui.Sample/CustomShellMaui.Sample.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,7 @@
     "/Users/dev/.nuget/packages/microsoft.extensions.logging.debug/7.0.0/microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
     "/Users/dev/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/dev/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "/Users/dev/.nuget/packages/microsoft.maui.graphics/7.0.100/microsoft.maui.graphics.7.0.100.nupkg.sha512",
+    "/Users/dev/.nuget/packages/microsoft.maui.graphics/7.0.101/microsoft.maui.graphics.7.0.101.nupkg.sha512",
     "/Users/dev/.nuget/packages/xamarin.android.glide/4.13.2.2/xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "/Users/dev/.nuget/packages/xamarin.android.glide.annotations/4.13.2.2/xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "/Users/dev/.nuget/packages/xamarin.android.glide.disklrucache/4.13.2.2/xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",
